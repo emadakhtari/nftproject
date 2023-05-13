@@ -1,0 +1,25 @@
+{
+  "short_name": "Nft Cup",
+  "name": "Nft Cup",
+  "icons": [
+    {
+      "src": "images/Nftcup_Logo.png",
+      "sizes": "128x36 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "images/Nftcup_Logo.png",
+      "type": "image/png",
+      "sizes": "128x36"
+    },
+    {
+      "src": "images/Nftcup_Logo.png",
+      "type": "image/png",
+      "sizes": "128x36"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#00b44b",
+  "background_color": "#ffffff"
+}

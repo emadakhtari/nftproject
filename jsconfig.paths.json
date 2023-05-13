@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "artifacts/*": ["artifacts/*"],
+        "/*": ["/*"],
+        "example/*": ["example/src/*"],
+        "@library/*": ["library/src/*"]
+      }
+    }
+  }
+  

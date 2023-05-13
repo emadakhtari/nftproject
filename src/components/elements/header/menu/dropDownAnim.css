@@ -1,0 +1,56 @@
+  :root {
+    --speed: 500ms; 
+  }
+  /* CSSTransition classes  */
+  .menu-primary-enter {
+    position: absolute;
+    transform: translateX(-110%);
+  }
+  .menu-primary-enter-active {
+    transform: translateX(0%);
+    transition: all var(--speed) ease;
+  }
+  .menu-primary-exit {
+    position: absolute;
+  }
+  .menu-primary-exit-active {
+    transform: translateX(-110%);
+    transition: all var(--speed) ease;
+  }
+  
+  .menu-secondary-enter {
+    transform: translateX(110%);
+  }
+  .menu-secondary-enter-active {
+    transform: translateX(0%);
+    transition: all var(--speed) ease;
+  }
+  .menu-secondary-exit-active {
+    transform: translateX(110%);
+    transition: all var(--speed) ease;
+  }
+  .toastClassName{
+    max-width: unset !important;
+    width: auto !important;
+  }
+.containerClassNameLoadingBar {
+  direction: ltr !important;
+}
+
+@font-face {
+font-family: "iran-sans";
+src: url("../../../../fonts/iran-sans-400.eot");
+src: url("../../../../fonts/iran-sans-400.eot?#iefix") format("embedded-opentype"),
+url("../../../../fonts/iran-sans-400.woff2") format("woff2"),
+url("../../../../fonts/iran-sans-400.woff") format("woff"),
+url("../../../../fonts/iran-sans-400.ttf") format("truetype");
+font-weight: 700;
+}
+.sub-menu {
+  position: absolute;
+  top: 64px;
+  padding: 5px;
+  background-color: #ccc;
+  border-radius: 6px;
+  transform-origin: 50% -30px;
+}
